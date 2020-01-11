@@ -1,0 +1,49 @@
+@import "vars";
+
+.section {
+  padding: 100px calc(50% - 470px);
+  position: relative;
+  background-color: grey;
+
+  &__content {
+    width: 100%;
+  }
+}
+
+.section-partners {
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+.section-support {
+  background-color: #00b5d2;
+  height: 500px;
+  background-image: url("../images/people/people.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.section-contact {
+  background-color: white;
+
+}
+
+.section-empty {
+  height: 111px;
+  background-color: white;
+}
+
+.section-gallery {
+  height: 400px;
+  background-image: url("../images/people/layer_gallery.png");
+  background-position: center;
+  background-color: #1b97c5;
+  background-size: cover;
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

@@ -1,0 +1,40 @@
+@import "vars";
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__heading {
+    font-weight: 200;
+    color: black;
+    text-align: center;
+    line-height: 60px;
+    font-size: 48px;
+    margin: 0;
+  }
+
+  &__text {
+    text-align: center;
+    color: black;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $small-screen-breakpoint) {
+  .support {
+    flex-direction: column;
+
+    &__heading {
+      margin-bottom: 16px;
+    }
+  }
+}

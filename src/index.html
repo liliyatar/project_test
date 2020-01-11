@@ -3,12 +3,133 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>project_test</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="images/favicon.png">
   </head>
   <body>
-    <img src="./images/logo.svg" alt="Logo">
-    <h1>Hello! Project</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+  <header class="header">
+    <nav class="nav header__nav" id="nav">
+      <ul class="nav__list">
+        <li class="nav__item nav__item_active">
+          Home
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About Us</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contacts" class="nav__link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="header__bottom">
+      <h1 class="header__title">
+        Global digital agency
+      </h1>
+      <p class="header__paragraph">
+        By the same illusion which lifts the horizon of the sea to the level of<br class="mobile__hidden"> the spectator on a hillside, the sable cloud beneath.
+      </p>
+      <button class="header__button">
+        Learn more
+      </button>
+    </section>
+  </header>
+  <main>
+    <section class="section-partners">
+      <div class="partners">
+        <a class="partners__logo" href="#">
+          <img src="./images/partners/magellan_hover.png" alt="partners__logo">
+        </a>
+        <a class="partners__logo" href="#">
+          <img src="./images/partners/kaiser.png" alt="partners__logo">
+        </a>
+        <a class="partners__logo" href="#">
+          <img src="./images/partners/anthem.png" alt="partners__logo">
+        </a>
+        <a class="partners__logo" href="#">
+          <img src="./images/partners/north_bay.png" alt="partners__logo">
+        </a>
+        <a class="partners__logo" href="#">
+          <img src="./images/partners/partnership_health_plan.png" alt="partners__logo">
+        </a>
+        <a class="partners__logo" href="#">
+          <img src="./images/partners/aetna.png" alt="partners__logo">
+        </a>
+      </div>
+    </section>
+
+    <section class="section section-support" id="about">
+      <div class="support">
+        <h1 class="support__heading">Support For People of All Walks of Life</h1>
+        <div class="support__text">
+          <p>
+            Children as young as 2 years old may begin to develop behaviors which need extra support and attention.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact">
+      <div class="contact">
+        <h1 class="contact__heading">McGrew Behavior Services Helps</h1>
+        <div class="contact__text">
+          <p>
+            Families, organizations and health care providers in Northern California. Our knowledge and<br class="mobile__hidden"> expirience provide the specialized support people when overcoming behavioral
+          </p>
+        </div>
+        <button class="button contact__button">Contact Us</button>
+      </div>
+    </section>
+
+    <section class="section section-gallery" id="gallery">
+      <div class="gallery">
+        <div class="photos">
+          <img src="images/photos/1.jpg" alt="Marina Palms, first photo" class="photos__img--wide-left">
+          <img src="images/people/mother_and_daughter.jpg" alt="Marina Palms, second photo" class="photos__img--wide-right">
+        </div>
+      </div>
+    </section>
+
+    <section class="section-empty"></section>
+
+    <section>
+      <div class="photos">
+        <img class="work__img--wide-left" src="./images/people/work.jpg" alt="people who work">
+        <div class="consultation__text work__img--wide-right">
+          <h3 class="consultation__heading">
+            Join Our Team
+          </h3>
+          <p>
+            We are always looking for highly motivated individuals who aligned with our committment to making a difference in the lives of other people. Whether you`re a BCBA or interested in ABA work we are interested in talking to you!
+          </p>
+          <button class="button form__button">
+            Find what`s available
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <article class="footer__container">
+      <nav class="footer__nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </nav>
+    </article>
+    <adress>
+      <a href="https://goo.gl/maps/W9sZWLsV7Q6sfdoD8" class="link">
+        120 Theresa Ave, American Canyon, CA 94503
+      </a>
+    </adress>
+    <p>
+      707.561.0134
+    </p>
+    <a href="#">familysources@mbisinc.com</a>
+  </footer>
   </body>
 </html>
