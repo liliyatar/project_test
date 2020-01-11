@@ -1,17 +1,10 @@
 @import "vars";
 
 .button {
-  width: 124px;
-  height: 52px;
-  font-size: 14px;
-  line-height: 1;
+  height: 61px;
+  font-size: 20px;
   color: white;
-  background-color: $highlight-color;
   cursor: pointer;
   transition: background-color $hover-duration;
   text-transform: uppercase;
-
-  &:hover {
-    background-color: $highlight-hover-color;
-  }
 }

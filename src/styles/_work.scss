@@ -1,33 +1,46 @@
 @import "vars";
 
-.consultation {
-  display: flex;
-  justify-content: stretch;
-
-  &__text {
-    background-color: #00aaef;
-  }
-
-  &__heading {
-    font-size: 32px;
-    line-height: 40px;
-    margin-bottom: 24px;
-  }
-}
-
 .work {
   $gap: 20px;
   display: flex;
   justify-content: space-between;
 
-  &__img {
-    width: calc(50% - #{$gap} / 2);
-    height: 260px;
-    object-fit: cover;
-    object-position: center;
+  &__preamble {
+    font-size: 18px;
+    font-style: italic;
+    word-spacing: 1px;
   }
 
-  .work__img--wide-left {
+  &__text {
+    background-color: #367ab7;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 31px;
+  }
+
+  &__heading {
+    font-size: 48px;
+    line-height: 2;
+    margin-bottom: 24px;
+    font-weight: 900;
+    color: white;
+  }
+
+  &__button {
+    background-color: #00b5d2;
+    width: 285px;
+    margin-bottom: 42px;
+  }
+
+  &__img {
+    width: calc(50% - #{$gap} / 2);
+    height: 350px;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  &__img--wide-left {
     &:first-child {
       width: calc(67% - #{$gap} / 2);
     }
@@ -37,7 +50,7 @@
     }
   }
 
-  .work__img--wide-right {
+  &__img--wide-right {
     &:first-child {
       width: calc(33% - #{$gap} / 2);
     }

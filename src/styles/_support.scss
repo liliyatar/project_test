@@ -6,25 +6,22 @@
   justify-content: center;
 
   &__heading {
-    font-weight: 200;
-    color: black;
+    font-weight: 900;
+    padding-bottom: 22px;
+    padding-top: 100px;
+    color: white;
     text-align: center;
     line-height: 60px;
     font-size: 48px;
     margin: 0;
+    word-spacing: 14px;
   }
 
   &__text {
     text-align: center;
-    color: black;
-
-    > :first-child {
-      margin-top: 0;
-    }
-
-    > :last-child {
-      margin-bottom: 0;
-    }
+    color: white;
+    font-size: 18px;
+    word-spacing: 4px;
   }
 }
 

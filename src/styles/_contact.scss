@@ -7,25 +7,28 @@
   justify-content: center;
 
   &__heading {
-    font-weight: 200;
-    color: black;
+    padding-top: 50px;
+    font-weight: bold;
+    word-spacing: 7px;
+    color: #777;
     text-align: center;
-    line-height: 60px;
-    font-size: 48px;
+    line-height: 2;
+    font-size: 24px;
     margin: 0;
   }
 
   &__text {
     text-align: center;
-    color: black;
+    color: #444;
+    line-height: 1.5;
+    font-size: 18px;
+  }
 
-    > :first-child {
-      margin-top: 0;
-    }
-
-    > :last-child {
-      margin-bottom: 0;
-    }
+  &__button {
+    width: 285px;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    background-color: #e1aa6e;
   }
 }
 

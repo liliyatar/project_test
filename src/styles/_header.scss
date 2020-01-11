@@ -25,7 +25,7 @@
   }
 
   &__bottom {
-    padding: 76px 20% 0;
+    padding: 76px 3% 0;
     display: flex;
     flex-direction: column;
   }
@@ -33,14 +33,14 @@
   &__title {
     color: white;
     font-weight: 900;
-    font-size: 64px;
-    line-height: 96px;
+    font-size: 48px;
+    line-height: 2;
     margin-bottom: 22px;
   }
 
   &__paragraph {
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5;
     color: white;
     margin-bottom: 42px;
@@ -55,16 +55,16 @@
     line-height: 1.5;
     font-weight: bold;
     font-size: 16px;
-    background: white;
-    border-radius: 64px;
+    background: #e1aa6e;
+    text-transform: uppercase;
     text-decoration: none;
-    color: #253757;
+    color: white;
     border: 0;
     cursor: pointer;
 
     &:hover {
-      background-color: rgb(255, 255, 87);
-      color: sienna;
+      background-color: #ba8e5b;
+      transition: background-color 0.8s;
     }
   }
 
@@ -77,6 +77,20 @@
 
     &:hover {
       color: $active-color;
+    }
+  }
+}
+
+@media (min-width: 1921px) {
+  .header {
+    &__bottom {
+      padding: 48px 327px 0;
+    }
+
+    &__nav {
+      bottom: 0;
+      right: 240px;
+      top: 40px;
     }
   }
 }
