@@ -1,0 +1,20 @@
+.partners {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .partners__logo {
+    -webkit-filter: opacity(50%) grayscale(100%);
+            filter: opacity(50%) grayscale(100%); }
+  .partners__logo:hover {
+    -webkit-filter: opacity(100%) grayscale(0%);
+            filter: opacity(100%) grayscale(0%);
+    -webkit-transition: 0.6s;
+    transition: 0.6s; }
+
+/*# sourceMappingURL=partners.css.map */
