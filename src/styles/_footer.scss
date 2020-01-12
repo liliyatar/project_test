@@ -1,27 +1,11 @@
-footer {
+.footer {
   text-align: center;
   color: #b9b9b9;
   padding: 60px 0 20px;
 
-  .menu {
-    margin-bottom: 50px;
-  }
-
   hr {
     border: 2px solid #cdcdcd;
     margin-bottom: 50px;
-  }
-
-  a {
-    color: #999;
-    margin: 30px;
-    font-weight: bold;
-    font-size: 16px;
-    transition: color 0.9s;
-
-    &:hover {
-      color: #f6bc8a;
-    }
   }
 
   .dot {
@@ -37,7 +21,7 @@ footer {
     margin: 20px;
   }
 
-  .mail {
+  &__mail {
     font-weight: bold;
     color: #f6bc8a;
   }
@@ -47,7 +31,24 @@ footer {
     width: 80%;
     border: 1px solid #cdcdcd;
   }
-  .copy {
+
+  &__copyright {
     font-size: 12px;
+  }
+}
+
+.nav {
+  margin-bottom: 50px;
+
+  &__link {
+    color: #999;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.9s;
+
+    &:hover {
+      color: #f6bc8a;
+    }
   }
 }

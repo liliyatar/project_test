@@ -4,27 +4,27 @@
   color: #fff;
   overflow: hidden;
 
-  h2 {
+  &__title {
     font-size: 48px;
     padding: 100px 0 30px;
     font-weight: 900;
     word-spacing: 14px;
   }
 
-  p {
+  &__text {
     margin-bottom: 80px;
     font-size: 18px;
     word-spacing: 4px;
   }
 
-  &__human-img {
+  &__background {
     position: relative;
     bottom: -5px;
     max-width: 940px;
     margin: 0 auto;
+  }
 
-    img {
-      width: 100%;
-    }
+  &__img {
+    width: 100%;
   }
 }

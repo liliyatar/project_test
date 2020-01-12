@@ -44,9 +44,18 @@
     display: block;
     background: #0089b4;
     padding-bottom: 10px;
-    border-bottom: 1px solid #cdcdcd;
     width: 120px;
+    padding-top: 7px;
+    height: 40px;
     text-align: center;
+    transition: 1s;
+    border-radius: 10px;
+    margin: 2px;
+
+    &:hover {
+      background-color: #f6bc8a;
+      color: white;
+    }
   }
 
   #menu a {
@@ -54,27 +63,29 @@
     margin-left: 5px;
     padding-bottom: 0;
     border-bottom: none;
-
   }
   .menu__trigger {
     display: block;
+    border-radius: 10px;
   }
   #menu {
     display: none;
+    border-radius: 10px;
   }
 }
 
 @media screen and (max-width: 524px) {
-  footer a {
+  .nav__link {
     margin: 10px;
   }
 }
 
 @media screen and (max-width: 375px) {
-  footer li {
+  .nav__item {
     display: block;
     padding-bottom: 10px;
   }
+
   .btn {
     font-size: 14px;
   }
