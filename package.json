@@ -40,7 +40,9 @@
     "stylelint-scss": "^3.6.1",
     "jquery": "^3.4.1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "slick-slider": "^1.8.2"
+  },
   "lint-staged": {
     "linters": {
       "*.scss": [

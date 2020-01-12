@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project_test</title>
-    <link rel="stylesheet" href="./styles/main.css">
     <link rel="icon" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
-    <link href="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" >
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
   </head>
   <body>
     <header class="header">
@@ -74,8 +75,13 @@
     <section class="slide">
       <div class="slide__bg"></div>
       <h2>In Home Support</h2>
-      <div class="slide__foto">
-        <img src="images/people/mother_and_daughter.jpg" alt="foto">
+      <div class="sl">
+        <div class="sl__slide">
+          <img class="sl__img" src="./images/people/mother_and_daughter.jpg" alt="mother and daughter">
+        </div>
+        <div class="sl__slide">
+          <img class="sl__img sl__img-border" src="./images/people/mother_and_daughter-2.jpg" alt="mother and daughter">
+        </div>
       </div>
     </section>
 
@@ -113,8 +119,18 @@
       <p class="copy">Copyright Ⓒ 2017 McGrews Behavior Services All Rights Reserved</p>
     </footer>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js">
+  <script type="text/javascript" src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.sl').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear'
+      })
+    });
   </script>
   <script src="./scripts/main.js"></script>
 </html>
