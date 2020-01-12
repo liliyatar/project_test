@@ -301,6 +301,13 @@ footer {
       width: 150px; } }
 
 @media screen and (max-width: 773px) {
+  .sl {
+    max-width: 400px;
+    margin: 0 auto; }
+    .sl__img {
+      max-width: 400px; } }
+
+@media screen and (max-width: 773px) {
   #menu li {
     display: block;
     background: #0089b4;
