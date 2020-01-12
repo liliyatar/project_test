@@ -1,52 +1,53 @@
-.footer {
-  height: 405px;
-  background-color: white;
-  border-top: 2px solid #ccc;
-  box-sizing: border-box;
-  margin-top: 50px;
+footer {
+  text-align: center;
+  color: #b9b9b9;
+  padding: 60px 0 20px;
 
-  &__container {
-    display: flex;
-    justify-content: space-between;
+  .menu {
+    margin-bottom: 50px;
   }
 
-  &__nav {
-    margin: 42px auto 0;
+  hr {
+    border: 2px solid #cdcdcd;
+    margin-bottom: 50px;
   }
 
-  &__info {
-    text-decoration: none;
+  a {
+    color: #999;
+    margin: 30px;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.5;
-    color: black;
-  }
+    transition: color 0.9s;
 
-  &__fillers {
-    margin: 43px auto;
-    text-align: center;
-  }
-
-  &__address {
-    color: #cecece;
-    text-align: center;
-  }
-
-}
-
-@media (min-width: 1921px) {
-  .footer {
-    padding: 68px 227px 83px;
-  }
-}
-
-@media (max-width: 950px) {
-  .footer {
-    padding: 34px 14.18% 41px;
-
-    &__container {
-      flex-direction: column-reverse;
-      align-items: center;
+    &:hover {
+      color: #f6bc8a;
     }
+  }
+
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #cdcdcd;
+    margin: 15px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  .mail {
+    font-weight: bold;
+    color: #f6bc8a;
+  }
+
+  .down {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #cdcdcd;
+  }
+  .copy {
+    font-size: 12px;
   }
 }

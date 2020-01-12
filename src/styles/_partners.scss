@@ -1,0 +1,18 @@
+.partners {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #fafafa;
+
+  &__logo {
+    padding: 25px 0;
+    filter: opacity(50%) grayscale(100%);
+    align-self: center;
+
+    &:hover {
+      filter: opacity(100%) grayscale(0%);
+      transition: 0.6s;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.services {
+  margin: 0 auto;
+  max-width: 755px;
+  text-align: center;
+
+  h3 {
+    color: #777;
+    word-spacing: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 70px 0 45px;
+  }
+
+  &__text {
+    text-align: center;
+    color: #444;
+    font-size: 18px;
+  }
+
+  .btn {
+    margin: 45px 0 70px;
+  }
+}

@@ -1,36 +1,30 @@
-@import "vars";
-
 .support {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-color: #00b6d4;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
 
-  &__heading {
-    font-weight: 900;
-    padding-bottom: 22px;
-    padding-top: 100px;
-    color: white;
-    text-align: center;
-    line-height: 60px;
+  h2 {
     font-size: 48px;
-    margin: 0;
+    padding: 100px 0 30px;
+    font-weight: 900;
     word-spacing: 14px;
   }
 
-  &__text {
-    text-align: center;
-    color: white;
+  p {
+    margin-bottom: 80px;
     font-size: 18px;
     word-spacing: 4px;
   }
-}
 
-@media screen and (max-width: $small-screen-breakpoint) {
-  .support {
-    flex-direction: column;
+  &__human-img {
+    position: relative;
+    bottom: -5px;
+    max-width: 940px;
+    margin: 0 auto;
 
-    &__heading {
-      margin-bottom: 16px;
+    img {
+      width: 100%;
     }
   }
 }
