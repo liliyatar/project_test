@@ -184,6 +184,12 @@ p {
   height: 100px;
   background-color: white; }
 
+.sl {
+  max-width: 760px;
+  margin: 0 auto;
+  -webkit-transform: translate(0, 70px);
+          transform: translate(0, 70px); }
+
 .join {
   display: -webkit-box;
   display: -ms-flexbox;
