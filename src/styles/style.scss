@@ -35,6 +35,12 @@ p {
   padding: 20px 80px;
   text-transform: uppercase;
   outline: none;
+  transition: 0.7s;
+
+  &:active {
+    background-color: #c98f57;
+    transform: scale(0.8);
+  }
 }
 
 .container {
